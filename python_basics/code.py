@@ -137,14 +137,14 @@
 #   if(num %num == 0 and num & 1== num): 
 #     print("prime")
 
-import random
-def guessGame(num):
-  guessNum = random.randint(1,35) 
-  if(num>guessNum):
-    print("Too high from: ",guessNum)
-  elif(num<guessNum):
-    print("too low from: ", guessNum)
-  else :
-    print("congratulations dude! you guess the right number: ", guessNum) 
+# import random
+# def guessGame(num):
+#   guessNum = random.randint(1,35) 
+#   if(num>guessNum):
+#     print("Too high from: ",guessNum)
+#   elif(num<guessNum):
+#     print("too low from: ", guessNum)
+#   else :
+#     print("congratulations dude! you guess the right number: ", guessNum) 
 
-guessGame(int(input("guess the number: ")))    
+# guessGame(int(input("guess the number: ")))    
